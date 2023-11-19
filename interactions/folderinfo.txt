@@ -1,0 +1,19 @@
+This folder is for the while which handles the interactions other than slash commands.
+Like interactions from menus and buttons
+
+If you are coding an interaction to your command(remember these files are only for interactions other than slash commands)
+define a property called interactTo: "you file name" in the file you are saving here
+
+example if i want to code the interaction to the selected menu option for the help command:
+I can do something like this:
+
+module.exports = {
+    interactTo: "help",
+    ......
+
+    async execute(){
+        .....
+    }
+}
+
+Remember that the command name should match interactTo property in here.

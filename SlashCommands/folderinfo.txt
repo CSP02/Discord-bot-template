@@ -1,0 +1,5 @@
+This folder is basically for all the commands
+There are already some folders which are commonly used in almost all buttons
+If you want to add anny folder you can simply add it and add your commands
+
+There are some sample codes you can see in each folder
